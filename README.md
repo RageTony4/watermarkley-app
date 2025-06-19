@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Watermarkely
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A generative, spatial UI for watermarking images, built with Three.js and GSAP.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Spatial 3D Interface**: Navigate through three distinct scenes in a cinematic 3D environment
+- **Biomorphic Particles**: Living, breathing particle system that reacts to mouse movement
+- **Interactive Watermarking**: Add text watermarks with real-time preview
+- **Smooth Transitions**: GSAP-powered camera movements and scene transitions
+- **Immersive Experience**: Custom cursor, glassmorphism UI, and spatial interactions
 
-### `npm start`
+## Scenes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **The Nexus**: Upload images by interacting with a pulsating 3D node
+2. **The Workshop**: Edit your image with orbital satellite controls
+3. **The Export**: Download your watermarked creation with shimmer effects
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup
 
-### `npm test`
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Run Locally
 
-### `npm run build`
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Open your browser to the provided local URL (typically http://localhost:3000)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Click the pulsating node in the center to upload an image
+2. Watch as particles coalesce to form your image
+3. Use the floating UI controls to add and customize your watermark
+4. Download your final watermarked image
+5. The scene will reset for your next creation
 
-### `npm run eject`
+## Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Three.js**: 3D rendering and WebGL scene management
+- **GSAP**: High-performance animations and transitions
+- **Vite**: Fast development server and build tool
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Browser Support
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Modern browsers with WebGL support required.
